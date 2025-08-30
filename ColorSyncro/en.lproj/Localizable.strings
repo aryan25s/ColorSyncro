@@ -1,0 +1,10 @@
+/* 
+  Localizable.strings
+  ColorSyncro
+
+  Created by Aryan Pradhan on 03/08/25.
+  
+*/
+"network_status_checking" = "Checking...";
+"network_status_online" = "🟢 Online";
+"network_status_offline" = "🔴 Offline";
