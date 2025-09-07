@@ -18,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" tag="1" contentMode="scaleToFill" horizontalHuggingPriority="251" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U7z-nd-QyJ">
-                                <rect key="frame" x="32" y="52" width="329" height="40"/>
+                                <rect key="frame" x="44.333333333333343" y="52" width="147" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="1Dg-ST-0eP"/>
                                 </constraints>
@@ -80,9 +80,8 @@
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="network_status_checking" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gGo-H1-E2S">
-                                <rect key="frame" x="20" y="34" width="353" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="network_status_checking" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gGo-H1-E2S">
+                                <rect key="frame" x="20" y="34" width="195.33333333333334" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -91,12 +90,13 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="gGo-H1-E2S" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="4" id="1Gp-K4-IFB"/>
                             <constraint firstItem="KBG-gI-oKN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="CfE-ku-06i"/>
                             <constraint firstAttribute="bottom" secondItem="KBG-gI-oKN" secondAttribute="bottom" id="EsM-Ix-wur"/>
+                            <constraint firstItem="KBG-gI-oKN" firstAttribute="top" secondItem="gGo-H1-E2S" secondAttribute="bottom" constant="38" id="Lxf-eO-q74"/>
                             <constraint firstItem="KBG-gI-oKN" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="NQ8-1Q-Dmv"/>
                             <constraint firstItem="KBG-gI-oKN" firstAttribute="top" secondItem="U7z-nd-QyJ" secondAttribute="bottom" constant="1" id="c1A-Wl-zr5"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="U7z-nd-QyJ" secondAttribute="trailing" constant="16" id="dnk-Rh-tnC"/>
-                            <constraint firstItem="U7z-nd-QyJ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="16" id="qR7-yM-YCY"/>
+                            <constraint firstItem="gGo-H1-E2S" firstAttribute="centerX" secondItem="U7z-nd-QyJ" secondAttribute="centerX" id="qKo-UY-9f3"/>
                             <constraint firstItem="U7z-nd-QyJ" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="52" id="t0I-wG-mJj"/>
                         </constraints>
                     </view>
